@@ -17,9 +17,7 @@ const OurStory = () => {
           <p className="text-gray-700 mb-6">
             The Restbeef Steakhouse was est in 1989 in Chicago City. With more than 30 years of experience and based on traditional recipes, we understand how to best serve our customers through tried service principles. Instead of following trends, we set them. We create steaks and grills we’re proud to serve and deliver it fast, with a smile. No matter where you find us, we’re making sure each meal our clients enjoy is delicious and one-of-a-kind. Our steak is always perfect and our professional team is working hard to make you happy.
           </p>
-          <button className="bg-red-500 text-white py-2 px-6 rounded-full hover:bg-red-600 transition duration-300">
-            LEARN MORE ABOUT US
-          </button>
+          <a href="/About" className="bg-red-500 hover:bg-red-700 text-white px-4 py-2 rounded">learn more About Us</a>
         </div>
       </div>
     </section>

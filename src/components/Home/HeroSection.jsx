@@ -24,12 +24,8 @@ const HeroSection = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-4">RESTBEEF STEAKHOUSE</h1>
           <p className="text-sm md:text-lg mb-8">We are making the original steaks based on traditional recipes. We use only fresh meat from the best suppliers. Our staff are professionals, and we make everything to leave our clients satisfied.</p>
           <div className="flex flex-wrap justify-center space-y-4 md:space-y-0 md:space-x-4">
-            <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full md:w-auto">
-              Watch Menu
-            </button>
-            <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full md:w-auto">
-              Book a Table
-            </button>
+          <a href="/menu" className="bg-red-500 hover:bg-red-700 text-white px-4 py-2 rounded">WATCH MENU</a>
+            <a href="/TableReservation" className="bg-red-500 hover:bg-red-700 text-white px-4 py-2 rounded">BOOK A TABLE</a>
           </div>
         </div>
       </div>
